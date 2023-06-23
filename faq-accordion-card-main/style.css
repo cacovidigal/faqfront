@@ -22,7 +22,7 @@
    width: 237px;
    height: 180px;
    margin-left: 3.5rem;
-   margin-top: 4rem;
+   margin-top: -6rem;
    
 
 
@@ -30,10 +30,10 @@
 
  .perguntas_respostas {
    width: 327px;
-   height: 535px;
+   height: 635px;
    flex-shrink: 0;
    margin-left: 1.3rem;
-
+   margin-top: 10rem; 
 
    border-radius: 23px;
    background: #FFF;
@@ -41,14 +41,29 @@
  }
 
  .titulo{
-  margin-top: 6rem;
+  margin-top: 1rem;
   font-weight: 700;
   font-size: 25px;
   text-align: center;
   margin-bottom: 2rem;
  }
+ .pergunta_com_seta{
+  display: flex;
+  justify-content: space-evenly;
+  
+ }
 
- .pergunta{
-  line-height: 30px;
-  margin-bottom: 2rem;
+ .seta{
+  margin-left: 5px;
+ }
+
+ .pregunta{
+  line-height: 50px;
+  text-align: center;
+  font-size: 18px ;
+ }
+ .attribution{
+  text-align: center;
+  font-size: 15px;
+  margin-top: 3rem;
  }
