@@ -61,9 +61,31 @@
   line-height: 50px;
   text-align: center;
   font-size: 18px ;
+  
  }
  .attribution{
   text-align: center;
   font-size: 15px;
   margin-top: 3rem;
  }
+/*
+ @media (min-width: 500px) {
+
+  
+  .perguntas_respostas {
+    width: 727px;
+    height: 635px;
+    flex-shrink: 0;
+    margin-left: 1.3rem;
+    margin-top: 10rem; 
+ 
+    border-radius: 23px;
+    background: #FFF;
+    box-shadow: 0px 50px 50px -20px rgba(53, 18, 122, 0.50);
+  }
+
+
+
+  
+ }
+ */
